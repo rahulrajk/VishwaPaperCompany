@@ -14,8 +14,10 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <title>Materials</title>
+    <title>Feedback</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <style>
         .white {
@@ -93,7 +95,48 @@
 
     <!-- Content -->
 
-    <h1 class="display-4 m-3">Feedback</h1>
+    <h1 class="display-4 m-3 text-center">FeedBack</h1>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <label class="label-input100" for="name">Full name</label>
+                    <input id="name" class="input100" type="text" name="name" placeholder="Enter your name...">
+                    <span class="focus-input100"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <label class="label-input100" for="name">Email ID</label>
+                    <input id="name" class="input100" type="text" name="name" placeholder="Enter your email id...">
+                    <span class="focus-input100"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <label class="label-input100" for="name">Subject</label>
+                    <input id="name" class="input100" type="text" name="name" placeholder="Enter the subject...">
+                    <span class="focus-input100"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                        <label class="label-input100" for="message">Message</label>
+                        <textarea id="message" class="input100" name="message" placeholder="Enter your message here..."></textarea>
+                        <span class="focus-input100"></span>
+                    </div>  
+            </div>
+        </div>
+        <div class="mt-5">
+            <button class="contact100-form-btn">
+                Send
+            </button>
+        </div>
+        
+    </div>
    
     
     <!-- Optional JavaScript -->
